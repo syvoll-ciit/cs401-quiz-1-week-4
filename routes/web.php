@@ -10,4 +10,4 @@ Route::get('/get-csrf-token', function () {
     return response()->json(['_token' => csrf_token()]);
 });
 Route::get('/', [GamesController::class,])->name('.index');
-// make the routes for the rest of the actions
+// Step 2. make the routes for the rest of the actions

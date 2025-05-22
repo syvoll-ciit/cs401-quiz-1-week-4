@@ -16,13 +16,17 @@ class GamesController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index() {}
+    public function index()
+    {
+        //Step 3. Your code here
+    }
 
     /**
      * Display the specified resource.
      */
     public function show(string $id)
     {
+        //Step 4.
         $results = array_filter($this->game_list, function ($game) use ($id) {
             return $game['id'] != $id;
         });
