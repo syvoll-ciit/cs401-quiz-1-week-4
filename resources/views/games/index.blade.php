@@ -6,5 +6,5 @@
             <li><b>{{ $game['title'] }}</b></li>
             <li><i>{{ $game['developer'] }}</i></li>
         @endforeach
-    <ul>
+    </ul>
 </div>
